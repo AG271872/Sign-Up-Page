@@ -1,0 +1,153 @@
+body{
+    overflow-x: hidden;
+    background-color: #ebccff;
+}
+
+
+.home-heading{
+    font-family: "Montserrat-light";
+    font-size: 3.5rem;
+    line-height: 1.6;
+    color: #4c0080;
+    font-weight: bold;
+    margin-bottom: 10%;
+    
+}
+
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: bold;
+    
+}
+
+h3{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h4{
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.home-image{
+    width: 300%;
+    height: 100%;
+    right: 30%;
+}
+
+/*Slider*/
+#slider{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #d966ff;
+    color:  #600080;
+    font-weight: bolder;
+}
+
+.slider-image{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.vote-img{
+    
+    border-radius: 100%;
+    margin: 0px;
+}
+
+/* Leaders*/
+
+#leaders{
+    text-align: center;
+    padding: 100px;
+}
+
+.leaders-column{
+    padding: 3% 2%;
+}
+
+/*Welcome Page*/
+
+.vote-btn{
+    width: 75%;
+    display: grid;
+    border: none;
+    padding: 10px 0px;
+    text-align: center;
+    margin-left: 50px;
+    color: white;
+}
+
+.party-table{
+    text-align: center;
+}
+
+/* It is online taken by CSS button generator*/
+.testbutton {
+   
+    text-decoration: none;
+    font-family: 'Crimson Pro', serif;
+    font-weight: bold;
+    color: #600080; 
+    font-size: 20px;
+    text-shadow: 1px 1px 3px #F569FF;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 10px 25px;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    border: 2px solid #3866A3;
+    background: #BA77EE;
+    background: linear-gradient(top,  #C740F7,  #FF8CF4);
+    background: -ms-linear-gradient(top,  #C740F7,  #FF8CF4);
+    background: -webkit-gradient(linear, left top, left bottom, from(#C740F7), to(#FF8CF4));
+    background: -moz-linear-gradient(top,  #C740F7,  #FF8CF4);
+  }
+  .testbutton:hover {
+    color: #FFFFFF !important;
+    background: #C378CF;
+    background: linear-gradient(top,  #FFFCFF,  #C451EE);
+    background: -ms-linear-gradient(top,  #FFFCFF,  #C451EE);
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFCFF), to(#C451EE));
+    background: -moz-linear-gradient(top,  #FFFCFF,  #C451EE);
+  }
+
+
+/*Footer Section*/
+#footer{
+    background-color: #28004d;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+    padding: 15px 0;
+
+}
+
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+/*To make website mobile friendly*/
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+
